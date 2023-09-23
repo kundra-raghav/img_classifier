@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.applications.resnet50 import preprocess_input
 
 # Load the trained model
-model = tf.keras.models.load_model('C:/Users/Raghav/OneDrive/Desktop/Python/datasets_dogs_cats/model.h5')
+model = tf.keras.models.load_model('/Python/datasets_dogs_cats/model.h5')
 
 # Create Tkinter window
 root = tk.Tk()
